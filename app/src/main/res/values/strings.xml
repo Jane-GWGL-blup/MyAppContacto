@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyAppContact</string>
+    <string name="nombre">Nicole Jane Caceres Serna</string>
+    <string name="correo">nicole.caceres@tecsup.edu.pe</string>
+    <string name="direccion">Bolognesi #840</string>
+    <string name="numero_telefonico">936001232</string>
+    <string name="tv_nombre">Nombre:</string>
+    <string name="tv_direccion">Direccion:</string>
+    <string name="tv_correo">Correo:</string>
+    <string name="tv_numero_telefonico">Número Telefonico:</string>
+    <string name="editar">Editar</string>
+    <string name="guardar">Guardar</string>
+</resources>
