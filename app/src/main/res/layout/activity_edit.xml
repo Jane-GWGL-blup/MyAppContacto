@@ -31,6 +31,7 @@
         android:id="@+id/edtDireccion"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
         android:layout_marginTop="16dp"
         android:hint="@string/direccion" />
 

@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,12 +48,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/tv_nombre"
-                        android:textStyle="bold|italic"/>
+                        android:textColor="#CB3A5754"
+                        android:textStyle="bold|italic" />
                     <TextView
                         android:id="@+id/tvNombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/nombre"
+                        android:textColor="#CB3A5754"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -62,12 +63,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/tv_correo"
+                        android:textColor="#CB3A5754"
                         android:textStyle="bold|italic"/>
                     <TextView
                         android:id="@+id/tvCorreo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/correo"
+                        android:textColor="#CB3A5754"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -75,12 +78,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/tv_direccion"
+                        android:textColor="#CB3A5754"
                         android:textStyle="bold|italic"/>
                     <TextView
                         android:id="@+id/tvDireccion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/direccion"
+                        android:textColor="#CB3A5754"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -88,12 +93,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/tv_numero_telefonico"
+                        android:textColor="#CB3A5754"
                         android:textStyle="bold|italic"/>
                     <TextView
                         android:id="@+id/tvTelefono"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/numero_telefonico"
+                        android:textColor="#CB3A5754"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -124,26 +131,26 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnLlamar"
-                android:layout_width="70dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_llamada"
                 android:layout_marginStart="30dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginEnd="30dp"
                 android:onClick="sendLlamar">
             </androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnMensaje"
-                android:layout_width="70dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
+                android:layout_marginEnd="30dp"
                 android:background="@drawable/bg_whatsapp"
                 android:onClick="sendWhatsapp">
             </androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnWhatsapp"
-                android:layout_width="70dp"
+                android:layout_width="60dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_mensaje"
                 android:onClick="sendMessage">
